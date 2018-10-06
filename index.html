@@ -6,16 +6,78 @@
 <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js">
 </script>
 <script>
-$(document).ready(function(){
-  $("button").click(function(){
-    $("p").hide();
-  });
-});
+
 </script>
+
+<style>
+html {
+  font-family: sans-serif; /* 1 */
+  -ms-text-size-adjust: 100%; /* 2 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+a {
+  color: #1e6bb8;
+  text-decoration: none; }
+a:hover {
+    text-decoration: underline; }
+/**
+ * Remove default margin.
+ */
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5; }
+.header {
+  color: #fff;
+  text-align: center;
+	background: #56ab2f; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #56ab2f, #a8e063); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #56ab2f, #a8e063); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.btn {
+    padding: 0.75rem;
+  display: inline-block;
+  margin-bottom: 1rem;
+  color: rgba(255, 255, 255, 0.7);
+  background-color: rgba(255, 255, 255, 0.08);
+  border-color: rgba(255, 255, 255, 0.2);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 25px;
+  transition: color 0.2s, background-color 0.2s, border-color 0.2s; }
+.btn:hover {
+  color: rgba(255, 255, 255, 0.8);
+  text-decoration: none;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-color: rgba(255, 255, 255, 0.3); }
+</style>
 </head>
 <body>
-    <h1>lofiwang.github.io</h1>
-    <p>website is under construction!</p>
-	<button>点我</button>
+    <section class="header">
+      <h1 class="title">test</h1>
+      <h2 class="summary">testtttt</h2>
+      <a href="https://github.com/lofiwang" class="btn">View on GitHub</a>
+      <a href="https://github.com/lofiwang" class="btn">View on GitHub</a>
+      <a href="https://github.com/lofiwang" class="btn">View on GitHub</a>
+    </section>
+	<section class="content">
+	<h1 class="title">test</h1>
+      <h2 class="summary">testtttt</h2>
+      <a href="https://github.com/lofiwang" class="btn">View on GitHub</a>
+      <a href="https://github.com/lofiwang" class="btn">Download .zip</a>
+      <a href="https://github.com/lofiwang" class="btn">Download .tar.gz</a>
+	
+	      <footer class="footer">
+		  <h1 class="title">test</h1>
+      <h2 class="summary">testtttt</h2>
+      <a href="https://github.com/lofiwang" class="btn">View on GitHub</a>
+      <a href="https://github.com/lofiwang" class="btn">Download .zip</a>
+      <a href="https://github.com/lofiwang" class="btn">Download .tar.gz</a>
+        </footer>
+
+    </section>
 </body>
 </html>
